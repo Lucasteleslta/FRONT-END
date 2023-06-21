@@ -1,0 +1,230 @@
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UAICompatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOME-A&A</title>
+
+</head>
+<style>
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: sans-serif;
+	}
+
+	body{
+		background-color: white;
+		height: 100vh;
+        justify-content: center;
+		align-items: normal;
+		display:list-item;
+	} 
+
+	nav{
+		background-color: rgb(252, 182, 193); 
+		text-align: left;
+		width: 100%;
+		z-index: 9999;
+		top: 1px;
+		position: fixed;
+	}
+
+	nav ul{ 
+		text-align: right;
+		display: inline-flex;
+		list-style: none;
+	}
+
+	nav ul li{
+		width: 120px;
+		margin: 15px;
+		padding: 15px;
+	}
+
+	nav ul li a{
+		text-decoration: none;
+		color:black;
+	}
+
+	h1{
+		text-align: left;
+		font-style: italic;
+		font-family: serif;
+		color: black;
+		margin-left: 20px;
+		margin-right: 160px;
+		margin-top: 21px;
+		font-size: 25;
+	}
+
+	h2{
+		text-align: left;
+		font-style: italic;
+		font-family: serif;
+		color: black;
+		margin-left:20px;
+		margin-top: 75px;
+		margin-bottom: 45;
+		font-size: 25; 
+	}
+
+	.CENTRAL{
+		display: flex;
+		width: 80;
+		height: 80;
+		border-radius: 50%;
+		border-color: black;
+        border: 2px solid;
+		margin-top: 5px;
+	    margin-bottom: 5px;
+	    margin-left: 10px;
+	}
+
+	.CENTRAL{
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    .CENTRAL:hover{
+        -webkit-filter: drop-shadow(9px 5px 4px rgba(38, 0, 255, 0.5));
+        filter: drop-shadow(9px 5px 4px rgba(0, 13, 255, 0.5));
+	}
+
+	h3{
+		text-align: left;
+		font-style: italic;
+		color: black;
+		margin-left:50px;
+		margin-top: 25px;
+	}
+	.foto01{
+		display: flex;
+		width: 510;
+		height: 510;
+		border-radius: 50%;
+		margin-top: 142px;
+		margin-left: 103px;
+	}
+
+	.foto01{
+        transition: all .5s;
+        border: 5px solid rgb(255, 119, 0);
+    }
+    .foto01:hover{
+        border: 10px solid #ff00ee;
+        border-radius: 50%;
+        -webkit-filter: drop-shadow(15px 7px 1px rgba(38, 0, 255, 0.5));
+    filter: drop-shadow(15px 7px 1px rgba(0, 13, 255, 0.5));
+    -webkit-transform: scale(1.18);
+    transform: scale(1.18);
+    }
+	.container{
+		display: flex;
+		align-items:normal;
+	}
+
+	.text{
+		margin-top: 90px;
+		margin-left: 28px;
+	}
+
+	.card01{
+		margin-top: 50;
+		margin-right: 30;
+		margin-left: 30;
+		margin-bottom: 60px;
+		width: 220;
+		height: 220;
+	}
+	
+	.card02{
+		margin-top: 50;
+		margin-right: 20;
+		margin-left: 20;
+		margin-bottom: 60px;
+		width: 220;
+		height: 220;
+	}
+	
+	.card03{
+		margin-top: 50;
+		margin-right: 20;
+		margin-left: 30;
+		margin-bottom: 60px;
+		width: 220;
+		height: 220;
+	} 
+
+    .card01{
+        transition: all .5s;
+        border: 10px solid transparent;
+    }
+    .card01:hover{
+        border: 10px solid #136497;
+        border-bottom: 50%;
+    }
+
+    .card02{
+        transition: all .5s;
+        border: 10px solid transparent;
+    }
+    .card02:hover{
+        border: 10px solid #ff9100;
+        border-bottom: 50%;
+    }
+
+    .card03{
+        transition: all .5s;
+        border: 10px solid transparent;
+    }
+    .card03:hover{
+        border: 10px solid #ff00bf;
+        border-bottom: 50%;
+    }
+
+</style>
+<body>
+	<nav>
+		<ul>
+			<img class="CENTRAL" src="LOGOAeA.jpg"/>
+			<h1>ACOLHIMENTO <br> & ACONCHEGO</h1>
+			<li><a href="home.HTML">HOME</a> </li>
+			<li><a href="equipe.html">EQUIPE</a> </li>
+			<li><a href="serviços.html">SERVIÇOS</a> </li>	
+			<li><a href="agendamento.html">AGENDAMENTO</a> </li>
+		</ul>
+	</nav>
+
+	<div class="container">
+
+		<div class="text">
+			<h2> 
+				EMPRESA DE PRESTAÇÃO DE SERVIÇO E ASSISTÊNCIA  <br> DE FORMA HUMANIZADA 
+				
+			</h2>
+			<h3> 
+				O acolhimento e aconchego é uma empreesa profissional <br> com diversos cursos e atendimentos extremamente completos e competentes 
+			</h3>
+
+			<h3>
+				PRÉ PARTOS  |  PARTOS  |  PÓS PARTO  |  FURO HUMANIZADO <br>
+				Equipe de Enfermeiras Obstetras<br>
+				São mais de 1000 furinhos de orelhinhas em bebês com a técnica humanizada<br>
+				Regioes de atendimento: DF, GO E MT
+			</h3>  
+			<img class="card01" src="card01.jpg"/>
+			<img class="card02" src="card02.jpg"/>
+			<img class="card03" src="card03.jpg"/>
+		</div>
+
+		<img class="foto01" src="LOGOAeA.jpg"/> 
+	</div>
+
+	
+</body>
+
+</html>
